@@ -43,6 +43,7 @@
 - Abstraction of Configuration
     * [__ConfigMaps__](https://kubernetes.io/docs/concepts/configuration/configmap/)
     * [__Secrets__](https://kubernetes.io/docs/concepts/configuration/secret/)
+    * Note on environment variables: [The Twelve-Factor App - Config](https://12factor.net/config)
 
 # 3. K8s
 
@@ -122,8 +123,10 @@
 
 # 4. Patterns / Applications
 
-- <https://helm.sh/>
-- <https://k3s.io/>
+- Package manager: <https://helm.sh/>
+- Lightweight K8s: <https://k3s.io/>
+- <https://prometheus.io/docs/introduction/overview/>
+- Lens IDE <https://k8slens.dev/>
 
 # 5. Alternatives
 
@@ -138,3 +141,4 @@
 - [Salt Lake Perl Mongers - 11/8/16 - Scott Wiersdorf - "High Availability Perl with Kubernetes"](https://www.youtube.com/watch?v=zqLdmNINhrY)
   *  <https://solitum.net/posts/high-availability-perl-with-kubernetes/>
   *  <https://github.com/scottw/ha-perl-k8s>
+- [NetworkChuck: You need to learn Kubernetes RIGHT NOW!!](https://www.youtube.com/watch?v=7bA0gTroJjw)
